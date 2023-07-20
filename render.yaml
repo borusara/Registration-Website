@@ -1,8 +1,6 @@
+version: 1
 services:
   - name: web
-    dockerfile: Dockerfile
+    buildCommand: composer install --no-dev --optimize-autoloader
     env: {}
-    env_secrets: []
-    ports:
-      - port: 8080
-        protocol: TCP
+    startCommand: php -S 0.0.0.0:8080 -t public
