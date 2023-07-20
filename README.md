@@ -1,3 +1,6 @@
+<img src="https://readme-typing-svg.herokuapp.com?color=1C71FA&width=420&lines=This+is+an;Event+Registration+Website;Made+By+Akatsukis;For+Devs+Lab;You+Can+use+replit;Or+Heroku+or+Render;This+Project+Is+Under+Gnu+License">
+</p>
+
 # Event Registration App
 
 This is a simple PHP-based Event Registration application that allows users to register for an event by providing their Telegram name and username. Upon submission, the form sends an SMS notification to a specified phone number using the Twilio API.
