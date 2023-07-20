@@ -23,11 +23,6 @@ cd your-repo
 ### 3. Deploy To Render
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/borusara/Registration-Website)
-
-### 4. Deploy to heroku (easiest)
-
-[![Deploy on Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/borusara/Registration-Website)
-
 <h1>Replace Twilio Credentials  </h1>
 <p>Open the index.php file and replace the following variables with your Twilio credentials </p>
 
