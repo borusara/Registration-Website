@@ -27,6 +27,5 @@ cd your-repo
 $twilioAccountSid = 'YOUR_TWILIO_ACCOUNT_SID'; <br>
 $twilioAuthToken = 'YOUR_TWILIO_AUTH_TOKEN'; <br>
 $twilioPhoneNumber = 'YOUR_TWILIO_PHONE_NUMBER'; <br>
-$yourPhoneNumber = 'YOUR_PHONE_NUMBER'; 
-
+$yourPhoneNumber = 'YOUR_PHONE_NUMBER'; ```
 
