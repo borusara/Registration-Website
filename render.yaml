@@ -1,0 +1,8 @@
+services:
+  - name: web
+    dockerfile: Dockerfile
+    env: {}
+    env_secrets: []
+    ports:
+      - port: 8080
+        protocol: TCP
