@@ -9,11 +9,14 @@ RUN apt-get update && \
 # Install Composer
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
 
+# Create a directory for the application
+RUN mkdir -p /var/www/html
+
 # Set the working directory inside the container
 WORKDIR /var/www/html
 
 # Copy the application files into the container
-COPY . /var/www/html/
+COPY . .
 
 # Install PHP dependencies using Composer
 RUN composer install --no-dev --optimize-autoloader
