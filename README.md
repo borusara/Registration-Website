@@ -1,3 +1,4 @@
+<p align="center">
 <img src="https://readme-typing-svg.herokuapp.com?color=1C71FA&width=420&lines=This+is+an;Event+Registration+Website;Made+By+Akatsukis;For+Devs+Lab;You+Can+use+replit;Or+Heroku+or+Render;This+Project+Is+Under+Gnu+License">
 </p>
 
