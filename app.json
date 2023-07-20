@@ -2,7 +2,7 @@
   "name": "Your App Name",
   "description": "Event Registration App",
   "image": "your-docker-image:latest",
-  "repository": "https://github.com/yourusername/your-repo.git",
+  "repository": "https://github.com/borusara/Registration-Website.git",
   "keywords": ["event", "registration", "twilio", "php"],
   "addons": [],
   "scripts": {
