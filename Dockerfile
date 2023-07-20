@@ -9,6 +9,9 @@ RUN apt-get update && \
 # Install Composer
 COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
 
+# Set the working directory inside the container
+WORKDIR /var/www/html
+
 # Copy the application files into the container
 COPY . /var/www/html/
 
