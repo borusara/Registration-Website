@@ -3,13 +3,10 @@ require_once 'vendor/autoload.php';
 
 use Twilio\Rest\Client;
 
-// Set your Twilio credentials
-$twilioAccountSid = 'AC509fa65914e51c4e859cfaf81c9c05b6';
-$twilioAuthToken = 'd5ec535d8011b50a8854ab9f4b809a97';
-$twilioPhoneNumber = '+16188275832';
-
-// Set your phone number where you want to receive the SMS
-$yourPhoneNumber = '+918870801331';
+$twilioAccountSid = 'YOUR_TWILIO_ACCOUNT_SID';
+$twilioAuthToken = 'YOUR_TWILIO_AUTH_TOKEN';
+$twilioPhoneNumber = 'YOUR_TWILIO_PHONE_NUMBER';
+$yourPhoneNumber = 'YOUR_PHONE_NUMBER';
 
 // Initialize variables
 $errorMessage = '';
