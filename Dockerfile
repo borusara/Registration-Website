@@ -1,11 +1,19 @@
 # Set the base image to PHP with Apache server
 FROM php:7.4-apache
 
-# Install required PHP extensions
-RUN docker-php-ext-install pdo pdo_mysql
+# Install system dependencies
+RUN apt-get update && \
+    apt-get install -y libzip-dev zip && \
+    docker-php-ext-install pdo pdo_mysql zip
+
+# Install Composer
+COPY --from=composer:latest /usr/bin/composer /usr/local/bin/composer
 
 # Copy the application files into the container
 COPY . /var/www/html/
+
+# Install PHP dependencies using Composer
+RUN composer install --no-dev --optimize-autoloader
 
 # Expose the container port 80
 EXPOSE 80
