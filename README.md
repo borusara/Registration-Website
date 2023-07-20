@@ -23,8 +23,8 @@ cd your-repo
 <h1>Replace Twilio Credentials  </h1>
 <p>Open the index.php file and replace the following variables with your Twilio credentials </p>
 
-$twilioAccountSid = 'YOUR_TWILIO_ACCOUNT_SID';
+<p>$twilioAccountSid = 'YOUR_TWILIO_ACCOUNT_SID';
 $twilioAuthToken = 'YOUR_TWILIO_AUTH_TOKEN';
 $twilioPhoneNumber = 'YOUR_TWILIO_PHONE_NUMBER';
-$yourPhoneNumber = 'YOUR_PHONE_NUMBER';
+$yourPhoneNumber = 'YOUR_PHONE_NUMBER'; </p>
 
