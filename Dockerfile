@@ -18,12 +18,6 @@ COPY . .
 # Install PHP dependencies using Composer
 RUN composer install --no-dev --optimize-autoloader
 
-# Set up Apache virtual host configuration
-RUN echo "DocumentRoot /app" >> /etc/apache2/sites-available/000-default.conf
-
-# Enable Apache mod_rewrite
-RUN a2enmod rewrite
-
 # Expose the container port 80
 EXPOSE 80
 
